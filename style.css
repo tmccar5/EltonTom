@@ -1,0 +1,87 @@
+.bg_img {
+    width: 100%;
+    opacity: 0.5;
+}
+
+body {
+    background: #0062FE;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(LemonMilkbold.woff);
+}
+
+.title {
+    color: #FF82FD;
+    font-family: myFirstFont;
+    font-size: 90px;
+
+}
+
+.contentContainer {
+    width: 80%;
+    margin: auto;
+}
+
+.facePic {
+    height: 400px;
+}
+
+
+.windowContainer {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: 10000;
+    top: 50%;
+}
+
+.titleBar {
+    text-align: center;
+    width: 100%;
+}
+
+.infoContainer {
+    background-color: blue;
+    height: 94%;
+    width: 75%;
+    margin: auto;
+    margin-top: 7%;
+    border-radius: 5.7px;
+}
+
+.lemonMilk {
+    font-family: myFirstFont;
+}
+
+.content-header {
+    color: white;
+    font-size: 33px;
+    padding: 6.67%;
+    line-height: 1.4;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+    /* padding-right: 2%; */
+
+}
+
+.content-header {
+    color: white;
+    font-size: 33px;
+    padding-top: -2%;
+    padding-left: 6.67%;
+    line-height: 1.4;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+}
+
+.content-body {
+    color: white;
+    padding-left: 6.67%;
+    display: block;
+    height: 18px;
+
+}
